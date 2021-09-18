@@ -1,0 +1,245 @@
+:root{
+    font-size: 16px;
+    font-family: 'Rambla',sans-serif;
+    background-color: #F3F2EE;
+}
+/* HEADER */
+nav{
+    display: flex;
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    padding: 2vh 3.5vw;
+    font-size: 0.8rem; 
+}
+/* Linkedin logo and search box */
+#logoAndSearchBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#inputSearch{
+    outline: none;
+    border: none;   
+    background-color: #F3F2EE;
+    padding: 1vh;
+    font-family: 'Roboto',sans-serif;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -1vw;
+}
+#searchIcon{
+    background-color: #F3F2EE;
+    padding: 1vh;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#formSearch{
+    margin-left: 1vw;
+}
+/* link to external pages */
+ul{
+    display: flex;
+    font-size: 0.7rem;
+    font-family: Ropa sans, sans-serif;
+    margin-left: 9vw;
+}
+li{
+    margin-right: 2.9vw;
+    padding-left: 0.9vw;
+    text-align: center;
+    cursor: pointer;
+}
+.navIcon{
+    margin-bottom: 1vh;
+}
+.iconButtons:hover{
+    opacity: 0.5;
+}
+/* small profile photo in the top right corner */
+#element3Nav img{
+    border-radius: 50%;
+    display: flex;
+    margin-bottom: 0.41vh;
+}
+#element3Nav{
+    text-align: center;
+    cursor: pointer;
+    margin-left: 6.1vw;
+    font-size: 0.7rem;
+}
+/* MAIN */
+main{
+    padding-left: 4.1vh;
+}
+/* profile header and picture */
+#profileHeader{
+    height: 17vh;
+    min-height: 108px;
+}
+#profileHeader img{
+    width: 91.5vw;
+    height: 21.2vh;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 5.7vh;
+    max-width: 900px;
+    min-height: 135px;
+}
+#profilePictureContainer{
+    height: 8.2vh;
+}
+#profilePictureContainer img{
+    border-radius: 50%;
+    width: 16.5vh;
+    height: 13.4vw;
+    margin-left: 2.4vw;
+    display: inline-flex;
+    cursor: pointer;
+    max-height: 100px;
+    max-width:100px;
+}
+/* name, job, location description */
+#profileContentWrapper{
+    background-color: white;
+    width: 91.5vw;
+    height: 29vh;
+    padding-top: 12vh;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    max-width: 900px;
+    min-height: 190px;
+}
+#profileHeaderText{
+    margin-left: 4vw;
+}
+#name{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 2vh;
+}
+#job{
+    font-size: 1.1rem;
+    margin-bottom: 1vh;
+}
+#location{
+    font-size: 0.9rem;
+    color: #666666;
+}
+/* profile header buttons */
+#buttonContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+#specialButton{
+    display: inline-flex;
+    margin-left: 4vw;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+#specialButton input{
+    background-color: #0B65C2;
+    border: none;
+    border-radius: 15px;
+    padding: 1.2vh;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+#button{
+    display: inline-flex;
+    margin-left: 1vw;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+#button input{
+    background-color: white;
+    color: #666666;
+    border-radius: 15px;
+    border: 1px solid #666666;
+    padding: 1.2vh;
+    font-size: 0.8rem;
+    margin-right: 1vw;
+}
+#specialButton input:hover{
+    background-color: darkblue;
+}
+#button input:hover{
+    border-color: rgb(0, 0, 0);
+    color: rgb(0,0,0);
+}
+/* experience and education section */
+div h2{
+    font-size: 1.1rem;
+    margin-bottom: 6vh;
+}
+#experienceAndEducationWrapper{
+    background-color: white;
+    margin-top: 4vh;
+    padding: 3.9vw;
+    width: 83.7vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    max-width: 800px;
+}
+#experience1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2vh;
+    cursor: pointer;
+    padding-bottom: 4vh;
+}
+#experience1 img{
+    border: 1px solid gray;
+}
+#experience1 p{
+    display: flex;
+    margin-left: 2vw;
+}
+#experience2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2vh;
+    cursor: pointer;
+    padding-bottom: 4vh;
+}
+#experience2 p{
+    display: flex;
+    margin-left: 2vw;
+}
+#education1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2vh;
+    cursor: pointer;
+    padding-bottom: 4vh;
+}
+#education1 p{
+    display: flex;
+    margin-left: 2vw;
+}
+#education2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2vh;
+    cursor: pointer;
+    padding-bottom: 4vh;
+}
+#education2 p{
+    display: flex;
+    margin-left: 2vw;
+}
+.experienceAndEducationImage img{
+    height: 5.5vh;
+}
+.experienceAndEducationText:hover{
+    text-decoration: underline;
+}
+.grayText{
+    color: #666666;
+}
+.boldText{
+    font-weight: bold;
+}
